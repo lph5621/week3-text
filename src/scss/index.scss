@@ -1,0 +1,48 @@
+*{
+	padding:0;
+	margin:0;
+	list-style: none;
+	box-sizing: border-box;
+}
+html,body{
+	width:100%;
+	height: 100%;
+}
+.wrap{
+	width:100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.header{
+	width:100%;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	
+	span{
+		
+		width:25%;
+		height: auto;
+	}
+	span:hover{
+		border-bottom:1px solid green;
+		color:green;
+	}
+}
+.headers{
+	width:100%;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	
+	span{
+		
+		width:25%;
+		height: auto;
+	}
+	span:hover{
+		border-bottom:1px solid green;
+		color:green;
+	}
+}

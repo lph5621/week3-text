@@ -1,7 +1,7 @@
 require.config({
 	baseUrl:'/js/',
 	paths:{
-		'mui':'mui.min.js',
-		
+		'mui':'./libs/mui.min',
+		'dom':'./libs/dom'
 	}
 })

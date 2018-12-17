@@ -4,11 +4,26 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
     <title></title>
-   
+	
     <link href="css/mui.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-	<h1>首页</h1>
+	<div class="wrap">
+		<header class="header">
+			<span>火车票</span>
+			<span>机票</span>
+			<span>酒店</span>
+			<span>汽车</span>
+		</header>
+		<main class="main">
+			<p>北京 ==>  上海</p>
+			<p>12月12日</p>
+			<button type="button" class="mui-btn mui-btn-green mui-btn-outlined" id="btn">
+				火车票查询
+			</button>
+		</main>
+	</div>
 	
 	<script src="js/libs/require.js" data-main="./js/page/index"></script>
 </body>

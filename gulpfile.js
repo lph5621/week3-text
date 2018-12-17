@@ -16,7 +16,7 @@ gulp.task("server",function(){
 	.pipe(server({
 		port:9700,
 		proxies:[
-			{source:"/users/api/userlist",target:"http://192.168.2.177:7000/users/api/userlist"},
+			{source:"/api/get/train_tickets",target:"http://localhost:7000/api/get/train_tickets"},
 		]
 	}))
 })
